@@ -29,8 +29,8 @@ Server should be running on `localhost:8000`, with hot reloading on.
 ### Locally
 Download this project
 ```bash
-go get github.com/senanito85/go-todo-app
-cd $GOPATH/src/github.com/senanito85/go-todo-app
+go get github.com/senanito85/golang-todo
+cd $GOPATH/src/github.com/senanito85/golang-todo
 ```
 
 Install requirements using [glide](https://github.com/Masterminds/glide)
