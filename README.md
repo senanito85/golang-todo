@@ -56,3 +56,22 @@ go build
 ./go-todo-app
 ```
 Server should be running on `localhost:8000`.
+
+
+## Usage
+
+### Get request to list all
+
+curl http://localhost:8000/todo 
+
+### POST request to add new item
+
+curl --header "Content-Type: application/json" --request POST  --data '{"title":"Go to gym","content":"Run for an hour"}' http://localhost:8000/todo/create
+
+### Retrieve specific item
+
+curl http://localhost:8000/todo/2
+
+
+
+
